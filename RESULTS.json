@@ -1,0 +1,231 @@
+{
+  "arithmetic": "exact integer/modular arithmetic; Python standard library only",
+  "certificate": "HOL-01",
+  "matrices": {
+    "M1": [
+      [
+        -1,
+        2,
+        2
+      ],
+      [
+        -2,
+        1,
+        2
+      ],
+      [
+        -2,
+        2,
+        3
+      ]
+    ],
+    "M2": [
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        3
+      ]
+    ],
+    "M3": [
+      [
+        1,
+        -2,
+        2
+      ],
+      [
+        2,
+        -1,
+        2
+      ],
+      [
+        2,
+        -2,
+        3
+      ]
+    ]
+  },
+  "p7_explicit_loops": {
+    "commutator_order": 7,
+    "gamma1_cycle_signature_on_fiber": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "gamma1_matrix": [
+      [
+        55,
+        120,
+        132
+      ],
+      [
+        24,
+        55,
+        60
+      ],
+      [
+        60,
+        132,
+        145
+      ]
+    ],
+    "gamma1_r_integer": [
+      1305,
+      592,
+      1433
+    ],
+    "gamma1_r_mod49": [
+      31,
+      4,
+      12
+    ],
+    "gamma2_cycle_signature_on_fiber": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "gamma2_matrix": [
+      [
+        49,
+        94,
+        106
+      ],
+      [
+        146,
+        287,
+        322
+      ],
+      [
+        154,
+        302,
+        339
+      ]
+    ],
+    "gamma2_r_integer": [
+      1053,
+      3196,
+      3365
+    ],
+    "gamma2_r_mod49": [
+      24,
+      11,
+      33
+    ],
+    "generated_index2_subgroup_order": 343,
+    "generated_subgroup_center_order": 7,
+    "noncommuting": true,
+    "word_gamma1": "BABC",
+    "word_gamma2": "BABAA"
+  },
+  "prime_checks": [
+    {
+      "V_p": 4,
+      "V_p2": 36,
+      "fiber_degree": 9,
+      "linear_image_order": 6,
+      "monodromy_order": 54,
+      "p": 3,
+      "rotation_preimage_center_order": 3,
+      "rotation_preimage_element_orders": [
+        1,
+        3
+      ],
+      "rotation_preimage_order": 27,
+      "schreier_affine_generators": 14,
+      "translation_kernel_order": 9,
+      "zero_translation_complement_order": 6
+    },
+    {
+      "V_p": 12,
+      "V_p2": 300,
+      "fiber_degree": 25,
+      "linear_image_order": 10,
+      "monodromy_order": 250,
+      "p": 5,
+      "rotation_preimage_center_order": 5,
+      "rotation_preimage_element_orders": [
+        1,
+        5
+      ],
+      "rotation_preimage_order": 125,
+      "schreier_affine_generators": 19,
+      "translation_kernel_order": 25,
+      "zero_translation_complement_order": 10
+    },
+    {
+      "V_p": 24,
+      "V_p2": 1176,
+      "fiber_degree": 49,
+      "linear_image_order": 14,
+      "monodromy_order": 686,
+      "p": 7,
+      "rotation_preimage_center_order": 7,
+      "rotation_preimage_element_orders": [
+        1,
+        7
+      ],
+      "rotation_preimage_order": 343,
+      "schreier_affine_generators": 27,
+      "translation_kernel_order": 49,
+      "zero_translation_complement_order": 14
+    },
+    {
+      "V_p": 60,
+      "V_p2": 7260,
+      "fiber_degree": 121,
+      "linear_image_order": 22,
+      "monodromy_order": 2662,
+      "p": 11,
+      "rotation_preimage_center_order": 11,
+      "rotation_preimage_element_orders": [
+        1,
+        11
+      ],
+      "rotation_preimage_order": 1331,
+      "schreier_affine_generators": 50,
+      "translation_kernel_order": 121,
+      "zero_translation_complement_order": 22
+    },
+    {
+      "V_p": 84,
+      "V_p2": 14196,
+      "fiber_degree": 169,
+      "linear_image_order": 26,
+      "monodromy_order": 4394,
+      "p": 13,
+      "rotation_preimage_center_order": 13,
+      "rotation_preimage_element_orders": [
+        1,
+        13
+      ],
+      "rotation_preimage_order": 2197,
+      "schreier_affine_generators": 83,
+      "translation_kernel_order": 169,
+      "zero_translation_complement_order": 26
+    }
+  ],
+  "root": [
+    3,
+    4,
+    5
+  ],
+  "scope": "finite certificate at p=7; regression checks at p=3,5,7,11,13; no universal-prime claim",
+  "version": "1.1.1"
+}

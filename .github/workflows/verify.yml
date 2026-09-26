@@ -1,0 +1,38 @@
+name: HOL-01 exact finite verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run exact affine certificate and snapshot check
+        run: python3 hol01_certificate.py --check RESULTS.json
+      - name: Run independent direct-permutation p=7 cross-check
+        run: python3 independent_p7_permutation_check.py
+      - name: Run finite-prime regression checks
+        run: python3 finite_prime_regression_check.py --check FINITE_REGRESSION_RESULTS.json
+
+  before-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: No invented identifier
+        run: |
+          if grep -rIqE --exclude-dir=.github "0000-0000-0000-0000|zenodo\.XXXX" . ; then
+            echo "::error::placeholder identifier found"; exit 1; fi
+      - name: No positive RH claim marker
+        run: |
+          if grep -rIqE --exclude-dir=.github "RHClaimed ?= ?true" . ; then
+            echo "::error::positive claim marker found"; exit 1; fi
+      - name: No withdrawn all-level wording
+        run: |
+          if grep -Iq "applies verbatim to every step" README.md HOL01_NOTE.tex GUIDE_PUBLICATION.md; then
+            echo "::error::withdrawn tower claim found"; exit 1; fi

@@ -1,0 +1,25 @@
+{
+  "title": "HOL-01: Exact finite monodromy certificate at p=7 for a Barning-Berggren congruence graph",
+  "version": "1.1.1",
+  "upload_type": "software",
+  "publication_date": "2026-09-24",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Couret, Alexandre"
+    }
+  ],
+  "description": "Exact, dependency-free finite computational certificate for the reduction of a Barning-Berggren Pythagorean congruence graph modulo 49 to modulo 7 above the root (3,4,5). It verifies a 49-point fibre, monodromy order 686, a translation kernel of order 49, a dihedral linear image of order 14, and two explicit positive loops BABC and BABAA generating an order-343 Heisenberg subgroup. Additional primes are finite regression checks only; p^3 to p^2 checks at p=3,5,7 are exploratory. No theorem for all odd primes or all congruence levels is claimed, and no historical-priority claim is made.",
+  "keywords": [
+    "Pythagorean triples",
+    "Barning-Berggren tree",
+    "monodromy",
+    "congruence graph",
+    "Heisenberg group",
+    "exact computation",
+    "reproducible research",
+    "Schreier graph"
+  ]
+}

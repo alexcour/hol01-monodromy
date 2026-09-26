@@ -1,0 +1,161 @@
+{
+  "arithmetic": "exact integer/modular arithmetic; Python standard library only",
+  "check": "HOL-01 finite-prime regression",
+  "exploratory_tower_step_checks": [
+    {
+      "monodromy_order": 54,
+      "p": 3,
+      "step": "Gamma_p3 -> Gamma_p2"
+    },
+    {
+      "monodromy_order": 250,
+      "p": 5,
+      "step": "Gamma_p3 -> Gamma_p2"
+    },
+    {
+      "monodromy_order": 686,
+      "p": 7,
+      "step": "Gamma_p3 -> Gamma_p2"
+    }
+  ],
+  "p7_explicit_loops": {
+    "BABC_BABAA_same_permutation_of_conic_fibre": true,
+    "commutator_acts_as_homothety_factor_mod_49": 36,
+    "loops_with_two_B": [
+      "BABC",
+      "BABAA"
+    ],
+    "shortest_odd_B_loops": [
+      "BABAB",
+      "BABBA",
+      "BBCBC",
+      "BCBBC"
+    ],
+    "shortest_odd_B_loops_length": 5,
+    "subgroup_generated": 343,
+    "with_BABAB": 686
+  },
+  "parametrisation": {
+    "A_from": [
+      [
+        2,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "B_from": [
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "C_from": [
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "C_inverse_A": "diag(-1,-1,1)",
+    "root": "phi(2,1)"
+  },
+  "primes": [
+    {
+      "V_p": 4,
+      "V_p2": 36,
+      "conic_fibre_monodromy_order": 6,
+      "eps_equals_det_equals_parity_of_B": true,
+      "eps_plus_subgroup_centre_order": 3,
+      "eps_plus_subgroup_order": 27,
+      "fibre": 9,
+      "fibre_equals_tangent_torsor_and_parametrisation_image": true,
+      "linear_image_order": 6,
+      "monodromy_order": 54,
+      "p": 3,
+      "point_stabiliser_order": 6,
+      "regular_covering": false,
+      "schreier_loops": 12,
+      "translations": 9
+    },
+    {
+      "V_p": 12,
+      "V_p2": 300,
+      "conic_fibre_monodromy_order": 10,
+      "eps_equals_det_equals_parity_of_B": true,
+      "eps_plus_subgroup_centre_order": 5,
+      "eps_plus_subgroup_order": 125,
+      "fibre": 25,
+      "fibre_equals_tangent_torsor_and_parametrisation_image": true,
+      "linear_image_order": 10,
+      "monodromy_order": 250,
+      "p": 5,
+      "point_stabiliser_order": 10,
+      "regular_covering": false,
+      "schreier_loops": 36,
+      "translations": 25
+    },
+    {
+      "V_p": 24,
+      "V_p2": 1176,
+      "conic_fibre_monodromy_order": 14,
+      "eps_equals_det_equals_parity_of_B": true,
+      "eps_plus_subgroup_centre_order": 7,
+      "eps_plus_subgroup_order": 343,
+      "fibre": 49,
+      "fibre_equals_tangent_torsor_and_parametrisation_image": true,
+      "linear_image_order": 14,
+      "monodromy_order": 686,
+      "p": 7,
+      "point_stabiliser_order": 14,
+      "regular_covering": false,
+      "schreier_loops": 72,
+      "translations": 49
+    },
+    {
+      "V_p": 60,
+      "V_p2": 7260,
+      "conic_fibre_monodromy_order": 22,
+      "eps_equals_det_equals_parity_of_B": true,
+      "eps_plus_subgroup_centre_order": 11,
+      "eps_plus_subgroup_order": 1331,
+      "fibre": 121,
+      "fibre_equals_tangent_torsor_and_parametrisation_image": true,
+      "linear_image_order": 22,
+      "monodromy_order": 2662,
+      "p": 11,
+      "point_stabiliser_order": 22,
+      "regular_covering": false,
+      "schreier_loops": 180,
+      "translations": 121
+    },
+    {
+      "V_p": 84,
+      "V_p2": 14196,
+      "conic_fibre_monodromy_order": 26,
+      "eps_equals_det_equals_parity_of_B": true,
+      "eps_plus_subgroup_centre_order": 13,
+      "eps_plus_subgroup_order": 2197,
+      "fibre": 169,
+      "fibre_equals_tangent_torsor_and_parametrisation_image": true,
+      "linear_image_order": 26,
+      "monodromy_order": 4394,
+      "p": 13,
+      "point_stabiliser_order": 26,
+      "regular_covering": false,
+      "schreier_loops": 252,
+      "translations": 169
+    }
+  ],
+  "scope": "finite regression checks only; no universal-prime or all-level theorem claim",
+  "version": "1.1.1"
+}
