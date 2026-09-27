@@ -1,5 +1,7 @@
 # HOL-01 — Exact finite monodromy certificate at p = 7 for a Barning-Berggren congruence graph
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22978389.svg)](https://doi.org/10.5281/zenodo.22978389)
+
 **Version 1.1.1 — finite computational certificate with an explicit claim boundary**
 
 > **Scope correction in 1.1.1.** The exact p = 7 certificate is unchanged. Version 1.1.1 withdraws the v1.1.0 wording that presented a theorem for every odd prime and an extension "verbatim" to every congruence level. The additional primes and the p^3 -> p^2 checks are now labelled exactly as what they are: finite regression/exploratory computations. Version 1.1.0 was an internal release candidate and was not published.
@@ -164,6 +166,12 @@ The Barning-Berggren tree, its modular interpretation, congruence orbits, graph 
 - `PUBLICATION_GATE.md` — pre-release checklist.
 - `.github/workflows/verify.yml` — blocking CI.
 - `.zenodo.json`, `CITATION.cff` — archive/citation metadata.
+
+## Citation and permanent archive
+
+Permanent archive on Zenodo:
+- Version DOI (v1.1.1): [10.5281/zenodo.22978389](https://doi.org/10.5281/zenodo.22978389)
+- Concept DOI: [10.5281/zenodo.22978388](https://doi.org/10.5281/zenodo.22978388)
 
 ## Author
 

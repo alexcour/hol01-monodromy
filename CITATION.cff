@@ -5,6 +5,14 @@ type: software
 version: 1.1.1
 date-released: 2026-09-24
 license: MIT
+doi: 10.5281/zenodo.22978389
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22978389
+    description: "The version DOI for version 1.1.1."
+  - type: doi
+    value: 10.5281/zenodo.22978388
+    description: "The concept DOI representing all versions."
 authors:
   - family-names: Couret
     given-names: Alexandre
