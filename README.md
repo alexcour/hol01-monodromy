@@ -156,7 +156,8 @@ The Barning-Berggren tree, its modular interpretation, congruence orbits, graph 
 
 For the historical embedding of the finite certificate and the later internal HOL-01U clarification,
 see [RESEARCH_CONTEXT.md](RESEARCH_CONTEXT.md). For the claim history and attribution policy,
-see [PROVENANCE.md](PROVENANCE.md).
+see [PROVENANCE.md](PROVENANCE.md). AI-assisted work is disclosed separately in
+[AI_ASSISTANCE.md](AI_ASSISTANCE.md).
 
 These documents do not enlarge the public theorem boundary of v1.1.1.
 
@@ -171,7 +172,9 @@ These documents do not enlarge the public theorem boundary of v1.1.1.
 - `HOL01_NOTE.pdf` / `HOL01_NOTE.tex` — short scientific note.
 - `REPRODUCIBILITY.md` — reproduction instructions.
 - `PRIOR_ART.md` — dated literature-context audit.
-- `PUBLICATION_GATE.md` — pre-release checklist.
+- `RESEARCH_CONTEXT.md` — historical embedding and potential scientific uses.
+- `PROVENANCE.md` — claim-history and attribution policy.
+- `AI_ASSISTANCE.md` — explicit disclosure of AI-assisted work.
 - `.github/workflows/verify.yml` — blocking CI.
 - `.zenodo.json`, `CITATION.cff` — archive/citation metadata.
 

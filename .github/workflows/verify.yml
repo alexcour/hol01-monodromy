@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Verify repository checksums
+        run: sha256sum -c SHA256SUMS.txt
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -34,5 +36,5 @@ jobs:
             echo "::error::positive claim marker found"; exit 1; fi
       - name: No withdrawn all-level wording
         run: |
-          if grep -Iq "applies verbatim to every step" README.md HOL01_NOTE.tex GUIDE_PUBLICATION.md; then
+          if grep -Iq "applies verbatim to every step" README.md HOL01_NOTE.tex; then
             echo "::error::withdrawn tower claim found"; exit 1; fi

@@ -45,19 +45,15 @@ This is recorded only as search context. The repository does **not** infer histo
 
 The classical 2x2/3x3 representation and congruence-group language remain useful for a future proof. They are not used in v1.1.1 as a substitute for the missing uniform stabilizer/kernel argument.
 
-
 ## Addendum — 30 September 2026
 
-A later internal audit reconstructed the broader all-primes/all-levels pattern through the standard
-2x2 parametrisation, congruence quotients and Schreier-graph action. In the wider project this
-clarification is now called **HOL-01U**.
+A later internal audit reconstructed the broader all-primes/all-levels pattern through the standard 2x2 parametrisation, congruence quotients and Schreier-graph action. In the wider project this clarification is now called **HOL-01U**.
 
 This changes the historical interpretation, not the finite certificate:
 
 - the broad structural mechanism is treated as classical / non-claimed;
-- the public v1.1.1 repository remains intentionally scoped to the exact (p=7) certificate;
+- the public v1.1.1 repository remains intentionally scoped to the exact \(p=7\) certificate;
 - the later derivation is not presented here as a new theorem or priority claim;
-- the specific finite package at (49	o7) remains a reproducible exact artefact.
+- the specific finite package at \(49\to 7\) remains a reproducible exact artefact.
 
-The prior-art task is therefore no longer to establish novelty of the general mechanism. Its role is
-to document the genealogy of the objects and to delimit the exact finite object actually certified.
+The prior-art task is therefore no longer to establish novelty of the general mechanism. Its role is to document the genealogy of the objects and to delimit the exact finite object actually certified.
