@@ -152,6 +152,14 @@ This release:
 
 The Barning-Berggren tree, its modular interpretation, congruence orbits, graph coverings and the relevant orthogonal-group language are classical or well represented in the literature. See `PRIOR_ART.md` and the bibliography of `HOL01_NOTE.pdf`. The absence of an exact match for the specific p = 7 certificate in a targeted search is not treated as proof of novelty.
 
+## Research-program context and provenance
+
+For the historical embedding of the finite certificate and the later internal HOL-01U clarification,
+see [RESEARCH_CONTEXT.md](RESEARCH_CONTEXT.md). For the claim history and attribution policy,
+see [PROVENANCE.md](PROVENANCE.md).
+
+These documents do not enlarge the public theorem boundary of v1.1.1.
+
 ## Files
 
 - `hol01_certificate.py` — principal exact finite certificate.
