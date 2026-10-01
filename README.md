@@ -113,7 +113,7 @@ so the action is affine. Moreover
 \delta_p(W_1W_2)=\delta_p(W_1)+\bar W_1\delta_p(W_2).
 \]
 
-This formula is a starting point for a future uniform theorem. This release does **not** identify the image of that affine representation for arbitrary \(p\) or arbitrary congruence level.
+This cocycle formula is classical structural context; it is not itself a novelty or uniform-image claim. This release does **not** identify the image of that affine representation for arbitrary \(p\) or arbitrary congruence level.
 
 ## Reproduce
 
@@ -191,3 +191,11 @@ Alexandre Couret.
 ## License
 
 MIT License. See `LICENSE`.
+
+## Current publication record
+
+See [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) for identifiers, dates, archive boundaries and links.
+
+## Consolidated novelty boundary
+
+The underlying Pythagorean dynamics, congruence methods and group-theoretic mechanisms are classical. This release contributes an exact reproducible finite p=7 certificate. A targeted prior-art search did not identify the exact finite package; no priority claim is inferred from that absence.

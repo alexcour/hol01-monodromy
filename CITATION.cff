@@ -3,7 +3,7 @@ message: "If you use this finite computational certificate, please cite this sof
 title: "HOL-01: Exact finite monodromy certificate at p=7 for a Barning-Berggren congruence graph"
 type: software
 version: 1.1.1
-date-released: 2026-09-24
+date-released: 2026-09-26
 license: MIT
 doi: 10.5281/zenodo.22978389
 identifiers:
@@ -16,6 +16,7 @@ identifiers:
 authors:
   - family-names: Couret
     given-names: Alexandre
+    orcid: "https://orcid.org/0009-0000-8246-7146"
 abstract: >-
   Exact, dependency-free finite computational certificate for the reduction of a
   Barning-Berggren Pythagorean congruence graph modulo 49 to modulo 7 above the
@@ -32,3 +33,5 @@ keywords:
   - Heisenberg group
   - exact computation
   - Schreier graph
+repository-code: "https://github.com/alexcour/hol01-monodromy-p7"
+url: "https://www.couretunification.fr/publications-et-depots/"
